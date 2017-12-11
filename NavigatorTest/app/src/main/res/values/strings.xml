@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="title_activity_maps">Navigator</string>
+    <string name="GPS_OFF_tv_GPSOFF">GPS вимкнено! Перейдіть в налаштування і увімкніть GPS для визначення місця розташування.</string>
+    <string name="GPS_OFF_btn_Cancel">Скасувати</string>
+    <string name="GPS_OFF_btn_Settings">Налаштування</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#a8080808</color>
+    <color name="colorPrimaryDark">#00000000</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="btn_navigation_itemIconTint">#f7f3f5</color>
+    <color name="btn_navigation_itemTextColor">#f7f3f5</color>
+
+    <color name="btn_navigation_item_Select">#f97d2a</color>
+    <color name="ItemBackgroundResource_Select">#373a4b</color>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Дом" />
+    <item
+        android:id="@+id/action_history"
+        android:icon="@drawable/ic_history_black_24dp"
+        android:title="История" />
+    <item
+        android:id="@+id/action_rating"
+        android:icon="@drawable/ic_star_half_black_24dp"
+        android:title="Рейтинг" />
+    <item
+        android:id="@+id/action_menu"
+        android:icon="@drawable/ic_menu_black_24dp"
+        android:title="Меню" />
+</menu>

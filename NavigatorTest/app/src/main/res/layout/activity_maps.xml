@@ -1,0 +1,57 @@
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.andriy.navigatortest.GPS_OFFActivity">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.andriy.navigatortest.MapsActivity"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/btn_Navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/colorPrimary"
+        app:itemIconTint="@color/btn_navigation_itemIconTint"
+        app:itemTextColor="@color/btn_navigation_itemTextColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/menu_button_navigation" />
+
+    <Button
+        android:id="@+id/btn_finish_job"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="64dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/inset"
+        android:text="Закончить работу"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints,RtlCompat" />
+
+    <Button
+        android:id="@+id/btn_ester"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="64dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/inset"
+        android:text="Эфир"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints,RtlCompat" />
+
+</android.support.constraint.ConstraintLayout>
